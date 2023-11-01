@@ -1,0 +1,129 @@
+
+.img{
+    border: solid 2px blue;
+    box-shadow:10px 10px 10px 10px black;
+    transition: trenform 1s;
+}
+.img:hover{
+  transform : scale(1.1);
+  
+}
+.nav_bar ul{
+    
+background-color: black;
+overflow: auto;
+}
+.nav_bar li{
+    /* display: inline;
+    margin: 1%; */
+    list-style-type: none;
+    float: left;
+    padding: 20px;
+}
+.nav_bar li a{
+    text-decoration: none;
+    color:white;
+}
+.nav_bar li a:hover{
+    color: red;
+}
+h1{
+    background-color: lightblue;
+    padding: 10px;
+}
+.col{
+  float: left;
+  padding: auto;
+}
+.col img{
+  width: 372px;
+  height: 500px;
+  border: 2px solid;
+  border-radius: 20%;
+  transition: transform 2s;
+}
+.col img:hover{
+  /* transform: rotateY(180deg); */
+  /* transform: rotateZ(180deg); */
+  /* transform-origin: 100%; */
+  transform: scale(1.1);
+  /* width: 750px;
+  height: 850px; */
+}
+.row{
+  overflow: hidden;
+  border: 2px;
+}
+
+.title{
+  text-align: center;
+  font-size: 2vw;
+  background-color: skyblue;
+  color: white;
+  padding: 10px;
+  
+}
+.title a{
+  text-decoration: none;
+  color: white;
+}
+.title a:hover{
+  color: black;
+  
+}
+.pic img{
+  width: 25%;
+}
+.h{
+  text-align:center ;
+  background-color: slateblue;
+  color: white;
+}
+h2{
+  background-color: blueviolet;
+  color: aliceblue;
+  padding: 20px;
+}
+.des{
+  text-align: justify;
+  font-size: 2em;
+}
+a button{
+  color: white;
+  text-decoration: none;
+  background-color:#3c8dbc ;
+  border:none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+  outline: none;
+  cursor:pointer;
+  padding: 15px;
+  width: 75px;
+}
+
+a button:hover{
+  color: mediumturquoise;
+  box-shadow: 10px 10px 20px rgba(0,0,0,0.2);
+  }
+.top{
+            
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px;
+  background-color: #f4f6ff;
+  border-bottom: 1px solid #e9edfc;
+  width: 100%;
+}
+.add{
+  padding: 20px;
+  font-size: 20px;
+  cursor: pointer;
+  font-size:20px;
+  float: left;  
+}
+
+
+
+    
